@@ -1,0 +1,12 @@
+.logement-rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #fa5e5e;
+    font-size : 18px;
+}
+
+.rating-star {
+    color: #fa5e5e;
+    font-size : 18px;
+}

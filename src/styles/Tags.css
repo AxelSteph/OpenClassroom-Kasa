@@ -1,0 +1,18 @@
+.logement-tags {
+    display: flex;
+    gap: 10px;
+    max-width: fit-content;
+}
+
+.logement-tags span {
+    background-color: #fa5e5e;
+    color: white;
+    height: 25px;
+    border-radius: 12px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    max-width: fit-content;
+    padding: 2px 20px;
+    font-weight: 700;
+}

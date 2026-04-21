@@ -1,16 +1,13 @@
 import { Link } from "react-router-dom";
-import banner from "../assets/img-banner.png";
 import logements from "../data/logement.json";
 import "../styles/Home.css";
+import Banner from "../componants/Banner";
+import bannerImg from "../assets/home-banner.png";
 
 function Home() {
   return (
     <main>
-      <section className="banner">
-        <h1>Chez vous, partout et ailleurs</h1>
-        <img src={banner} alt="Image de la bannière" />
-      </section>
-
+      <Banner title="Chez vous, partout et ailleurs" img={bannerImg} />
       <section className="location-section">
         {logements.map((logement) => (
           <Link to={`/logement/${logement.id}`} key={logement.id}>
