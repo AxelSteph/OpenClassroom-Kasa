@@ -104,3 +104,24 @@
     list-style: none;
     padding: 0 10px;
 }
+
+.logement-collapses {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.logement-collapse {
+    width: 45%;
+}
+
+.collapse-content p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.collapse-content ul {
+    list-style: none;
+    font-size: 20px;
+    margin-top : 20px;
+}

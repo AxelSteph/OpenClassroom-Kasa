@@ -5,6 +5,7 @@ import Footer from "./componants/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Logement from "./pages/Logement";
+import Error from "./pages/Error";
 
 import "./styles/App.css";
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/logement/:id" element={<Logement />} />
+          <Route path="*" element={<Error />} />
         </Routes>
       </main>
       <Footer />
