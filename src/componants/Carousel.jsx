@@ -36,20 +36,23 @@ function Carousel({ logementId }) {
         src={pictures[currentIndex]}
         alt={`Image ${currentIndex + 1} du logement`}
       />
+      {pictures.length > 1 && (
+        <>
+          <button
+            className="carousel-arrow carousel-arrow-left"
+            onClick={handlePrev}
+          >
+            <FontAwesomeIcon icon={faChevronLeft} />
+          </button>
 
-      <button
-        className="carousel-arrow carousel-arrow-left"
-        onClick={handlePrev}
-      >
-        <FontAwesomeIcon icon={faChevronLeft} />
-      </button>
-
-      <button
-        className="carousel-arrow carousel-arrow-right"
-        onClick={handleNext}
-      >
-        <FontAwesomeIcon icon={faChevronRight} />
-      </button>
+          <button
+            className="carousel-arrow carousel-arrow-right"
+            onClick={handleNext}
+          >
+            <FontAwesomeIcon icon={faChevronRight} />
+          </button>
+        </>
+      )}
 
       {pictures.length > 1 && (
         <span className="carousel-counter">

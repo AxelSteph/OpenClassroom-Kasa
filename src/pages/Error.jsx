@@ -3,11 +3,11 @@ import "../styles/Error.css"
 
 function Error () {
     return (
-        <main className="error-container">
+        <div className="error-container">
             <h1 className="error-title">404</h1>
             <p className="error-text">Oups! La page que vous demandez n'existe pas.</p>
             <Link to="/home" className="error-link">Retourner sur la page d'accueil</Link>
-        </main>
+        </div>
     )
 }
 

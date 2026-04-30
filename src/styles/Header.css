@@ -26,3 +26,41 @@ header nav a {
     color: black;
     font-weight: bold;
 }
+
+header nav a.active {
+        text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+
+    header {
+        max-width: 100%;
+        padding: 10px 20px;
+    }
+
+    .header-logo {
+        flex-direction: column;
+        align-items: center;
+        max-width: 40%;
+    }
+
+    header nav {
+        margin-left: 0;
+        width: 60%;
+        padding-left: 20px;
+    }
+
+    header nav ul {
+        width: 100%;
+        justify-content: space-around;
+        transform: translateY(-5px);
+    }
+
+    header nav a {
+        font-size: 12px;
+        margin-left: 0;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+}

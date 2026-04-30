@@ -10,3 +10,13 @@ footer {
 footer img {
     width: 100px;
 }
+
+@media (max-width: 768px) {
+    footer img {
+        width: 30%;
+    }
+
+    footer p {
+        font-size: 100%;
+    }
+}

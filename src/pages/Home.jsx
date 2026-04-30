@@ -6,7 +6,7 @@ import bannerImg from "../assets/home-banner.png";
 
 function Home() {
   return (
-    <main>
+    <>
       <Banner title="Chez vous, partout et ailleurs" img={bannerImg} />
       <section className="location-section">
         {logements.map((logement) => (
@@ -18,7 +18,7 @@ function Home() {
           </Link>
         ))}
       </section>
-    </main>
+    </>
   );
 }
 

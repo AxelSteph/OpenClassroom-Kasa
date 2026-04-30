@@ -23,12 +23,12 @@ const collapseData = [
 
 function About() {
   return (
-    <main>
+    <>
       <Banner img={bannerImg} />
       {collapseData.map((item, index) => (
         <Collapse key={index} title={item.title} content={item.content} />
       ))}
-    </main>
+    </>
   );
 }
 

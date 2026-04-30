@@ -15,6 +15,7 @@
     text-align: center;
     z-index: 1;
     position: absolute;
+    font-size: 48px;
 }
 
 .banner img {
@@ -23,4 +24,21 @@
     object-fit: cover;
     filter: brightness(50%);
     border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .banner {
+        height: 150px;
+        max-width: 90%;
+        height: 150px;
+        margin: 20px auto;
+    }
+
+    .banner h1 {
+        font-size: 24px;
+        width: 60%;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
 }
