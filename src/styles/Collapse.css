@@ -52,3 +52,25 @@
         transform: translateY(0);
     }    
 }
+
+@media (max-width: 768px) {
+    .collapse {
+        margin: 8px 0;
+    }
+
+    .collapse-header {
+        padding: 12px 15px;
+    }
+
+    .collapse-header h2 {
+        font-size: 16px;
+    }
+
+    .collapse-arrow {
+        font-size: 18px;
+    }
+
+    .collapse-content {
+        padding: 10px 15px;
+    }
+}

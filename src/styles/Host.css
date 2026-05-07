@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .logement-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .left-container {
+        margin-bottom: 20px;
+    }
+
+    .logement-rating {
+        margin-top: 10px;
+    }
+}
+    

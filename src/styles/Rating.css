@@ -4,9 +4,21 @@
     gap: 5px;
     color: #fa5e5e;
     font-size : 18px;
+    margin-top: 20px;
 }
 
 .rating-star {
     color: #fa5e5e;
     font-size : 18px;
+}
+
+@media (max-width: 768px) {
+    .logement-rating {
+        font-size: 14px;
+        margin-top: 0;
+    }
+
+    .rating-star {
+        font-size: 14px;
+    }
 }

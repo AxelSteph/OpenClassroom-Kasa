@@ -25,26 +25,25 @@ function Logement() {
       <Carousel logementId={id} />
       <section className="logement-details">
         <div className="logement-info">
-          <div className="logement-title">
+          <div className="left-container">
             <h1>{logement.title}</h1>
             <p>{logement.location}</p>
+            <Tags tags={logement.tags} className="logement-tags" />
           </div>
-          <Host host={logement.host} className="logement-host" />
-        </div>
-        <div className="tags-rating-container">
-          <Tags tags={logement.tags} className="logement-tags" />
-          <Rating rating={logement.rating} className="logement-rating" />
+
+          <div className="right-container">
+            <Host host={logement.host} className="logement-host" />
+            <Rating rating={logement.rating} className="logement-rating" />
+          </div>
         </div>
         <div className="logement-collapses">
           <Collapse
             title="Description"
             content={logement.description}
-            className="logement-collapse"
           />
           <Collapse
             title="Équipements"
             list={logement.equipments}
-            className="logement-collapse"
           />
         </div>
       </section>

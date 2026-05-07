@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .about-page {
+        padding: 0 100px;
+    }
+
+    .about-page .banner {
+        width: 100%;
+    }
+
+    .about-page .collapse {
+        margin-bottom: 20px;
+    }
+
+
+}

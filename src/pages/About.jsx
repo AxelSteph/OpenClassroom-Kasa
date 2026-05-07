@@ -1,6 +1,7 @@
 import Banner from "../componants/Banner";
 import bannerImg from "../assets/about-banner.png";
 import Collapse from '../componants/Collapse';
+import "../styles/About.css";
 
 const collapseData = [
   {
@@ -23,12 +24,12 @@ const collapseData = [
 
 function About() {
   return (
-    <>
+    <div className="about-page">
       <Banner img={bannerImg} />
       {collapseData.map((item, index) => (
         <Collapse key={index} title={item.title} content={item.content} />
       ))}
-    </>
+    </div>
   );
 }
 
