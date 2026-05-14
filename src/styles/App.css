@@ -1,3 +1,12 @@
 html {
     font-family: 'Montserrat', sans-serif;
 }
+
+main {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+body {
+  margin: 0;
+}
