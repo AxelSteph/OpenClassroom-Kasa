@@ -46,3 +46,18 @@
   color: white;
   font-size: 18px;
 }
+
+@media (max-width: 768px) {
+  .carousel-counter {
+    display: none;
+  }
+  .carousel-image {
+    height: 260px;
+  }
+
+  .carousel-arrow {
+    font-size: 3rem;
+    width: 32px;
+    height: 32px;
+  }
+}

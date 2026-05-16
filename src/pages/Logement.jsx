@@ -16,13 +16,9 @@ function Logement() {
     return <Navigate to="/404" />;
   }
 
-  const name = logement.host.name.split(" ");
-  const firstName = name[0];
-  const lastName = name[1];
-
   return (
     <div>
-      <Carousel logementId={id} />
+      <Carousel pictures={logement.pictures} />
       <section className="logement-details">
         <div className="logement-info">
           <div className="left-container">

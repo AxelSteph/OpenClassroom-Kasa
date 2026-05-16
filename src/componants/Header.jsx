@@ -9,7 +9,7 @@ function Header() {
             <img src={logo} alt="Kasa Logo" className='header-logo'/>
             <nav>
                 <ul>
-                    <li><NavLink to="/home">Accueil</NavLink></li>
+                    <li><NavLink to="/">Accueil</NavLink></li>
                     <li><NavLink to="/about">À propos</NavLink></li>
                 </ul>
             </nav>

@@ -1,5 +1,4 @@
 import { useState } from "react";
-import logements from "../data/logement.json";
 import "../styles/Carousel.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -8,12 +7,10 @@ import {
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
 
-function Carousel({ logementId }) {
-  const logement = logements.find((log) => log.id === logementId);
-  const pictures = logement?.pictures ?? [];
+function Carousel({ pictures }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  if (!logement || pictures.length === 0) {
+  if (!pictures || pictures.length === 0) {
     return null;
   }
 
