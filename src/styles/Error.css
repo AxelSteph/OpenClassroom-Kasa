@@ -22,3 +22,21 @@
     color: #000000;
     margin-bottom: 6rem;
 }
+
+@media (max-width: 768px) {
+    .error-title {
+        font-size: 144px;
+        margin-top: 20px;
+        margin-bottom: 3rem;
+    }
+
+    .error-text {
+        font-size: 18px;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+
+    .error-link {
+        margin-bottom: 3rem;
+    }
+}

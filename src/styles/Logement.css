@@ -29,6 +29,7 @@
     font-size: 36px;
     margin: 0;
     color: #fa5e5e;
+    padding-right: 20px;
 }
 
 .left-container p {
@@ -40,7 +41,6 @@
     display: flex;
     align-items: center;
     color: #fa5e5e;
-    font-size: 18px;
 }
 
 .logement-host-name {
@@ -52,6 +52,7 @@
 .logement-host-name p{
     margin: 0;
     text-align: right;
+    font-size: 18px;
 }
 
 .logement-host img {
@@ -65,14 +66,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: right;
+    align-items: flex-end;
+    text-align: right;
 }
 
 .description-equipments-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 40px;
 }
 
 .description-equipments-container h2 {
@@ -106,13 +107,13 @@
 
 .logement-collapses {
     display: flex;
-    justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 20px;
+    gap: 60px;
 }
 
 .logement-collapses > div {
-    width: 45%;
+    width: 100%;
 }
 
 .collapse-content p {
@@ -135,7 +136,7 @@
 
     .logement-details {
         max-width: 100%;
-        padding: 0 15px;
+        padding: 0 20px;
         margin: 0;
     }
 
